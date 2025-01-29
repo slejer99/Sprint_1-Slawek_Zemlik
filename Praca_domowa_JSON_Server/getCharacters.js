@@ -13,7 +13,7 @@ async function getCharacters() {
   }
 }
 
-async function getToDb() {
+async function postToDb() {
   try {
     const data = await getCharacters();
 
@@ -35,4 +35,4 @@ async function getToDb() {
   }
 }
 
-getToDb();
+postToDb();
